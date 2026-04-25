@@ -21,5 +21,10 @@ namespace api.Repository
         {
             return await _context.Comments.ToListAsync();
         }
+
+        Task<Comment> ICommentRepository.GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -25,5 +25,16 @@ namespace api.Controllers
             var CommentDto = comments.Select(c => c.ToCommentDto());
             return Ok(CommentDto);
         }   
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById(int id)
+    {
+        var comment = await _commentRepository.GetByIdAsync(id);
+        if (comment == null)
+        {
+            return NotFound();
+        }
+        var commentDto = comment.ToCommentDto();
+        return Ok(commentDto);
+    }
     }
 }
