@@ -22,9 +22,16 @@ namespace api.Repository
             return await _context.Comments.ToListAsync();
         }
 
-        Task<Comment> ICommentRepository.GetByIdAsync(int id)
+        public async Task<Comment> CreateAsync(Comment comment)
         {
-            throw new NotImplementedException();
+            await _context.Comments.AddAsync(comment);
+            await _context.SaveChangesAsync();
+            return comment;
+        }
+
+        public async Task<Comment> GetByIdAsync(int id)
+        {
+            return await _context.Comments.FirstOrDefaultAsync(c => c.Id == id);
         }
     }
 }
