@@ -9,6 +9,7 @@ using api.Dtos.Stock;
 using api.Models;
 using Microsoft.EntityFrameworkCore;
 using api.Interfaces;
+using api.Helpers;
 
 namespace api.Controllers
 {
@@ -25,13 +26,13 @@ namespace api.Controllers
             _context = context;
         }
     [HttpGet]
-    public async Task<IActionResult> GetAll()
+    public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
         if(!ModelState.IsValid)
         {
             return BadRequest(ModelState);
         }
-            var stocks = await _stockRepository.GetAllAsync();
+            var stocks = await _stockRepository.GetAllAsync(query);
             var stockDto = stocks.Select(s => s.ToStockDto());
             return Ok(stockDto);
         }
