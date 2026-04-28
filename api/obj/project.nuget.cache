@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xWyta1YskW4=",
+  "dgSpecHash": "SGDQBwhCqA4=",
   "success": true,
   "projectFilePath": "C:\\Users\\ThinkPad\\OneDrive - Université Libre de Bruxelles\\Bureau\\FinShark\\api\\api.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,7 @@
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.7\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.7.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\10.0.7\\microsoft.aspnetcore.jsonpatch.10.0.7.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\10.0.7\\microsoft.aspnetcore.mvc.newtonsoftjson.10.0.7.nupkg.sha512",
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
@@ -26,13 +26,12 @@
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.7\\microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.7\\microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.7\\microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.design\\10.0.2\\microsoft.entityframeworkcore.design.10.0.2.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.design\\10.0.7\\microsoft.entityframeworkcore.design.10.0.7.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.7\\microsoft.entityframeworkcore.relational.10.0.7.nupkg.sha512",
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.2\\microsoft.entityframeworkcore.sqlserver.10.0.2.nupkg.sha512",
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.2\\microsoft.entityframeworkcore.tools.10.0.2.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.7\\microsoft.entityframeworkcore.sqlserver.10.0.7.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.7\\microsoft.entityframeworkcore.tools.10.0.7.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.2\\microsoft.extensions.dependencymodel.10.0.2.nupkg.sha512",
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.identity.core\\10.0.7\\microsoft.extensions.identity.core.10.0.7.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.7\\microsoft.extensions.dependencymodel.10.0.7.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.identity.client\\4.73.1\\microsoft.identity.client.4.73.1.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.73.1\\microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
@@ -65,18 +64,5 @@
     "C:\\Users\\ThinkPad\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1510",
-      "level": "Warning",
-      "message": "PackageReference Microsoft.Extensions.Identity.Core will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "C:\\Users\\ThinkPad\\OneDrive - Université Libre de Bruxelles\\Bureau\\FinShark\\api\\api.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\ThinkPad\\OneDrive - Université Libre de Bruxelles\\Bureau\\FinShark\\api\\api.csproj",
-      "libraryId": "Microsoft.Extensions.Identity.Core",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }
