@@ -117,6 +117,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors(policy => policy
+.AllowAnyMethod()
+.AllowAnyHeader()
+.AllowCredentials()
+//.WithOrigins("http://localhost:3000") // Replace with your frontend URL
+.SetIsOriginAllowed(origin => true));
+
 app.UseAuthentication();
 app.UseAuthorization();
 

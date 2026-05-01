@@ -27,7 +27,7 @@ namespace api.Controllers
             _context = context;
         }
     [HttpGet]
-    [Authorize]
+    // [Authorize]
     public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
         if(!ModelState.IsValid)
