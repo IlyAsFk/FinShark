@@ -33,5 +33,12 @@ namespace api.Repository
              Comments = stock.Stock.Comments
          }).ToListAsync();
         }
+
+        public async Task<Portfolio> createAsync(Portfolio portfolio)
+        {
+            await _context.Portfolios.AddAsync(portfolio);
+            await _context.SaveChangesAsync();
+            return portfolio;
+        }
     }
 }
